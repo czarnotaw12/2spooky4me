@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Beware of a scare within here, weary Internet User... He, he, he...</title>
+		<link href="https://fonts.googleapis.com/css2?family=Creepster&family=Nosifer&display=swap" rel="stylesheet">
+		<script>
+		
+			function spooky1(){
+				document.getElementById('scary2').innerHTML="<div id='txtzoom'><p id='jtk'>You WERE warned...</p></div>";
+				document.getElementById('skrim').innerHTML="<audio autoplay loop><source src='media/skrim.mp3'></audio>";
+				document.getElementById('scary1').innerHTML="<style>body {background-image: url(media/scary1.gif); background-repeat: repeat; background-size: 250px 235px}</style>";
+				}
+		</script>
+	</head>
+	<body>
+
+		<style>
+			body {
+				margin: 0 auto;
+				background-image: url(media/scarytlo.jpg);
+				background-size: cover;
+				background-attachment: fixed;
+				background-position: center;
+				overflow: hidden;
+			}
+			div {
+				text-align: center;
+			}
+			h2, p {
+				text-align: center;
+				color: red;
+				display: block;
+			}
+			h2 {
+				text-shadow: 2px 5px 3px darkred;
+				font-family: 'Creepster', cursive;
+				font-size: 7em;
+				-webkit-animation: fadein 2s;
+				-moz-animation: fadein 2s;
+				-ms-animation: fadein 2s;
+				-o-animation: fadein 2s;
+				animation: fadein 2s;
+			}
+			p {
+				font-family: 'Nosifer', cursive;
+				font-size: 2em;
+				-webkit-animation: fadein 4s;
+				-moz-animation: fadein 4s;
+				-ms-animation: fadein 4s;
+				-o-animation: fadein 4s;
+				animation: fadein 4s;
+				
+			}
+			span {
+				-webkit-animation: fadein 8s;
+				-moz-animation: fadein 8s;
+				-ms-animation: fadein 8s;
+				-o-animation: fadein 8s;
+				animation: fadein 8s;
+				font-size: 20pt;
+			}
+			button {
+				margin-top: 50px;
+				border: 5px solid darkred; 
+				border-radius: 10px;
+				font-size: 15pt;
+				width: 250px;
+				height: 100px;
+				background-color: black;
+				color: white;
+				font-weight: bold;
+				-webkit-animation: fadein 12s;
+				-moz-animation: fadein 12s;
+				-ms-animation: fadein 12s;
+				-o-animation: fadein 12s;
+				animation: fadein 12s;
+			}
+			button:hover {
+				margin-top: 50px;
+				border: 5px solid darkred; 
+				border-radius: 10px;
+				font-size: 15pt;
+				width: 250px;
+				height: 100px;
+				background-color: black;
+				color: gold;
+				transition: 1s;
+			}
+			#jtk {
+				text-align: center;
+				font-family: 'Nosifer', cursive;
+				font-size: 2em;
+				margin-top: 350px;
+				-webkit-animation: zoom 5s;
+				-moz-animation: zoom 5s;
+				-ms-animation: zoom 5s;
+				-o-animation: zoom 5s;
+				animation: zoom 5s ease-out infinite normal;
+			}
+			@keyframes fadein {
+				0% { opacity: 0; }
+				50% { opacity: 0; }
+				100%  { opacity: 1; }
+			}
+			@-moz-keyframes fadein {
+				0% { opacity: 0; }
+				50% { opacity: 0; }
+				100%  { opacity: 1; }
+			}
+			@-webkit-keyframes fadein {
+				0% { opacity: 0; }
+				50% { opacity: 0; }
+				100%  { opacity: 1; }
+			}
+			@-ms-keyframes fadein {
+				0% { opacity: 0; }
+				50% { opacity: 0; }
+				100%  { opacity: 1; }
+			}
+			@-o-keyframes fadein {
+				0% { opacity: 0; }
+				50% { opacity: 0; }
+				100%  { opacity: 1; }
+			}
+			@keyframes zoom {
+				0% { transform: scale(0.9); }
+				25% { transform: scale(3); }
+				50% { transform: scale(0.9); }
+				75% { transform: scale(3); }
+				100% { transform: scale(0.9); }
+			}
+			@-webkit-keyframes zoom {
+				0% { transform: scale(0.9); }
+				25% { transform: scale(3); }
+				50% { transform: scale(0.9); }
+				75% { transform: scale(3); }
+				100% { transform: scale(0.9); }
+			}
+			@-moz-keyframes zoom {
+				0% { transform: scale(0.9); }
+				25% { transform: scale(3); }
+				50% { transform: scale(0.9); }
+				75% { transform: scale(3); }
+				100% { transform: scale(0.9); }
+			}
+			@-ms-keyframes zoom {
+				0% { transform: scale(0.9); }
+				25% { transform: scale(3); }
+				50% { transform: scale(0.9); }
+				75% { transform: scale(3); }
+				100% { transform: scale(0.9); }
+			}
+			@-o-keyframes zoom {
+				0% { transform: scale(0.9); }
+				25% { transform: scale(3); }
+				50% { transform: scale(0.9); }
+				75% { transform: scale(3); }
+				100% { transform: scale(0.9); }
+			}
+		</style>
+		<div id="scary1">
+			<audio autoplay loop><source src='media/ominousmuzyczka.mp3'></audio>
+			<h2>WARNING!</h2>
+			<p>Don't click da boutton, or else...<span><br>Hrmm.. Perhaps do...</span></p>
+			<button type="button" onclick="spooky1()">If you dare...</button>
+		</div>
+		<div id="scary2"></div>
+		<audio id="skrim"></audio>
+	<body>
+</html>
